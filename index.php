@@ -12,7 +12,7 @@ require_once __DIR__ . "./classes/CreditCard.php";
 // new-products
 $lamp = new PrdCategory(1, "lamp01", 54.50, "flos");
 $lamp->setCategory("lighting");
-$sofa = new PrdCategory(2, "sofa01", 180.99, "flos");
+$sofa = new PrdCategory(2, "sofa01", 180.99, "flos", "living room");
 // new-shop
 $ikea = new Shop();
 $ikea->setProvince('mi');
