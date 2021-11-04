@@ -1,10 +1,10 @@
 <?php
     require_once __DIR__ . "./PrdCategory.php";
     class Product {
-        private $id;
-        private $name;
-        private $price;
-        private $brand;
+        protected $id;
+        protected $name;
+        protected $price;
+        protected $brand;
         /**
         * __construct
         * 

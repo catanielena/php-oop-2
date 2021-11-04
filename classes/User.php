@@ -2,12 +2,12 @@
 require_once __DIR__ . "./PremiumUser.php";
     class User {
         use Address;
-        private $name;
-        private $last_name;
-        private $age;
-        private $password;
-        private $credit_card;
-        private $sconto = 0;
+        protected $name;
+        protected $last_name;
+        protected $age;
+        protected $password;
+        protected $credit_card;
+        protected $sconto = 0;
         /**
         * __construct
         * 
@@ -62,4 +62,5 @@ require_once __DIR__ . "./PremiumUser.php";
         {
             $this->credit_card = $_credit_card;
         }
+
     }
